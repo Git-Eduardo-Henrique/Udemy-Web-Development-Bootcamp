@@ -1,0 +1,22 @@
+/* Write your code here: */
+
+h1, h2 {
+    color: blueviolet;
+}
+
+/* para selecionar apenas do done que for filho da div box */
+.box > .done { 
+    color: firebrick;
+}
+
+.list li {
+    color: blue;
+}
+
+li.done {
+    color: seagreen;
+}
+
+ul p.done {
+    font-size: 0.5rem;
+}
